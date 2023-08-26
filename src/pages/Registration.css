@@ -1,0 +1,300 @@
+
+.container {
+
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.result {
+  
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.result p {
+
+  font-size: 18px;
+
+}
+
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.reg {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 30%; 
+  box-sizing: border-box;
+}
+.log {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 30%; 
+  box-sizing: border-box;
+}
+
+.login-text {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display:flex
+}
+
+
+.button-container-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 10px;
+  margin-left: 5%;
+
+}
+.button-container-verify{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width:40%;
+  padding: 10px;
+}
+
+.button-container-log-in {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 70px;
+  padding: 10px;
+  margin-left: 7%;
+}
+
+.register-button,
+.login-button ,
+.ExamList{
+  cursor: pointer;
+ ;
+  display: flex;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+
+.successmsg{
+  margin-top: 10px;
+  color: #ff0000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+
+ .login-button{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ }
+ .codeid{
+  color: #ff0000;
+ }
+ .exams{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ }
+ .exam-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.view-exam-btn {
+
+  padding: 10px 20px;
+  background-color: #45a049;
+  transition: background-color 0.3s ease;
+}
+.view-exam-btn:hover {
+  background-color: #055909;
+}
+.exam-details {
+  list-style: circle;
+}
+.exam-item {
+  display: flex;
+
+  margin-bottom: 8px;
+}
+.exam-name {
+  margin-right: 8px;
+}
+.start-exam-btn:hover {
+  background-color: #08560c;
+}
+.exam-q1 {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  line-height: 1.2;
+  font-size: 16px;
+}
+.exam-q2 {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  line-height: 0;
+  font-size: 16px;
+}
+.exam-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.exam-q {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.exam-option {
+
+  align-items: left;
+  margin-bottom: 5px;
+}
+.opt{
+  text-align: left;
+}
+
+nav {
+  display: flex;
+
+  align-items: center;
+}
+
+.e-p {
+  margin: 0 350px 0 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ccc;
+  border-radius: 8px;
+}
+/* package details */
+.package-details-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* tranction styles */
+
+
+.transaction{
+ margin-left: 250px;
+}
+
+/* Noroute style */
+
+.noroute {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18%;
+}
+
+.content {
+  width: 500px;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 12px;
+  text-align: left; /* Align content to the right */
+}
+
+.noroute h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.noroute p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.noroute a {
+  color: rgba(7, 0, 143, 0.999);
+}
+/* login  */
+
+
+.login-text {
+
+  margin-left: 20px;
+  color: rgba(7, 0, 143, 0.999);
+  text-decoration: underline;
+  cursor: pointer;
+}
